@@ -1,0 +1,126 @@
+/* Header */
+
+.fa-user-astronaut {
+    color: #3D087B;
+    font-size: 12rem;
+}
+
+.header-div {
+    padding: 10% 15%;
+}
+
+.nav-div {
+    text-align: left;
+    padding-top: 2%;
+}
+
+.nav-div a {
+    color: #3D087B;
+    padding: 0% 10% 0% 0%;
+}
+
+/* Headings */
+
+h1 {
+    color: #F43B86;
+    font-family: 'Righteous', cursive;
+    font-size: 7rem;
+    line-height: 6rem;
+    text-align: left;
+}
+
+h2 {
+    color: #F43B86;
+    font-family: 'Righteous', cursive;
+    font-size: 3rem;
+    margin-bottom: 0;
+    padding: 0 0 5% 0;
+    text-align: center;
+}
+
+h3 {
+    color: #3D087B;
+    font-family: 'Righteous', cursive;
+}
+
+
+/* Content */
+
+.main-div {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    padding: 10% 15%;
+    text-align: center;
+}
+
+.purple-div {
+    background-color: #11052C;
+    color: #FFE459;
+}
+
+.yellow-div {
+    background-color: #FFE459;
+}
+
+
+a {
+    color: #F43B86;
+}
+
+a:hover {
+    color: #3D087B;
+}
+
+/* Testimonial Carousel */
+
+.carousel-button {
+    color: #F43B86;
+}
+
+.carousel-item p {
+    color: #11052C;
+    font-family: 'Poppins', sans-serif;
+}
+
+#portfolio-carousel {
+    padding: 5%;
+}
+
+/* Github Button */
+
+.btn {
+    background-color: #3D087B;
+    color: #FFE459;
+    font-size: 1.5rem;
+}
+
+/* Contact Section */
+
+.contact-div a {
+    color: #FFE459;
+    font-size: 2.5rem;
+    padding: 0 2%;
+}
+
+/* Media Queries */
+
+@media (max-width: 767px) {
+    .header-div h1 {
+        font-size: 5rem;
+        line-height: 4rem;
+        padding: 0;
+        text-align: center;
+    }
+
+    .fa-user-astronaut {
+        font-size: 10rem;
+    }
+
+    .nav-div {
+        text-align: center;
+    }
+
+    .nav-div a {
+        padding: 5% 2% 0% 2%;
+    }
+}
